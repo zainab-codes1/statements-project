@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/sf-pro-display">
+  <style>
+    body{
+            font-family: 'SF Pro Display';
+            background-image: url(file:///C:/Users/Sophia%20Nkwonta/Downloads/Kego%20Logos.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            background-size: auto;
+        }
+        h1{
+            /*to add color to the background and text*/
+            background-color: #1E312D;
+            color: white;
+            text-align: right; 
+            margin: 20px;
+            padding: 20px;
+        }  
+        h2{
+        font-size: larger;
+        padding-left: 20px;
+       }
+       h3{
+        padding-top: 100px;
+        padding-left: 20px;
+       } 
+       img{
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: 30px; 
+        }
+        table{
+        text-align: left;
+        border-collapse: collapse;
+        margin-right: 20px;
+       }
+       .summary-container{
+        background-color: #E9EAEA;
+        margin: 20px;
+        padding: 20px;
+       } 
+       .first{
+        display: grid;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 20px;
+       }
+       thead{
+        background-color: #E9EAEA;
+        border-collapse: collapse;
+        border: none;
+        margin: 20px;
+        td, th {
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        
+       }
+       footer{
+        padding: 20px;
+       }
+       .red{
+        color: #E43826;
+       }
+       
+  </style>
+</head>
+<body>
+    <!--to add the kegow logo-->
+<img src="file:///C:/Users/Sophia%20Nkwonta/Downloads/Kegow%20White-01%201.png" alt="">
+        <h1>STATEMENTS OF ACCOUNT</h1>
+        <h2>TEMITOPE C. LAWAL</h2>
+        <!--to create the acconts table-->
+        <table align="right" style="width: 30%;"> <!--width set to 30% to space out the table data-->
+            <tr>
+                <th>Account</th>
+                <th>Date</th>
+            </tr>
+            <tr>
+                <td>30000000521</td>
+                <td>01/04/2023-25/04/2023</td>
+            </tr>
+            <tr>
+                <th>Opening Balance</th>
+                <th>Closing Balance</th>
+            </tr>
+            <tr>
+                <td>₦248,800.00</td>
+                <td>₦216,655.00</td>
+            </tr>
+        </table>
+
+        <h3>Summary</h3>
+        <!--create div to contain the table-->
+      <div class="summary-container">
+        <table>
+            <tr>
+                <td style="padding-right: 20px;">Money In</td>
+                <td>Money Out</td>
+            </tr>
+            <tr>
+                <th style="padding-right: 20px;">₦248,800.00</th>
+                <th>₦216,655.00</th>
+            </tr>
+        </table>
+      </div>
+      <div class="first">
+        <table style="width: 100%;">
+          <thead>
+            <tr><th>Date</th>
+                <th>Description</th>
+                <th>Debit</th>
+                <th>Credit</th>
+                <th>Balance</th>
+               </tr>
+                <tr>
+                    <th>March 6th</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+          </thead>
+           <tr>
+            <td>01:25pm</td>
+            <td>
+                KEGOW TO KEGOW TRANSFER
+                <br>REF:492457719000000500002301240510 from
+                <br>FOLAJIN OYEBUKOLA RANTI to OLAWALE AYODELE
+            </td>
+            <td class="red">2,000</td>
+            <td></td>
+            <td>100,685</td>
+           </tr>
+           <tr>
+            <td>01:25pm</td>
+            <td>
+                NIP CHARGE
+                <br>00013230127142110000724237397
+                <br>REF:00013230127142110000724237397
+            </td>
+            <td class="red">10</td>
+            <td></td>
+            <td>100,675</td>
+           </tr>
+       
+           <thead>
+            <tr><th>March 5th</th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+               </tr>
+           </thead>
+           <tr>
+            <td>01:25pm</td>
+            <td>
+                VALUE ADDED TAX
+            <br>000013230127142110000724237397
+            <br>ReF:000013230127142110000724237397 
+            </td>
+            <td class="red">0.75</td>
+            <td></td>
+            <td>200,000</td>
+           </tr>
+           <tr>
+            <td>01:25pm</td>
+            <td>
+                OTHER BANK TO KEGOW TRANSFER
+                <br>REF:492457719000000500002301240510 from 
+                <br>OLAWALE AYODELE to FOLAJINOYEBUKOLA RANTI
+            </td>
+            <td></td>
+            <td>20,000</td>
+            <td>242,000</td>
+           </tr>
+       
+          <thead>
+            <tr>
+                <th>March 4th</th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+               </tr>
+          </thead>
+          <tr>
+            <td>01:25pm</td>
+            <td>
+            AITIME RECHARGE
+            <br>mtnng-Airtime purchase for 08036719469
+            <br>REF:492457719000000500002301240510
+            </td>
+            <td class="red">2000</td>
+            <td></td>
+            <td>260,080</td>
+           </tr>
+        </table>
+      </div>      
+</body>
+<footer>
+  All Rights Reserved Nigerian banking services by Chams (RC76807). All Deposits are insured by the Nigerian
+ <br>Deposit Insurance Corporation (NDIC). Kegow Mobile is powered by Chams a Licensed MF Bank by the 
+  <br>Central Bank of Nigeria. "Kegow" is a trademark of Chams , 8, Louis Solomon Street, Victoria Island, Lagos,
+  <br>Nigeria.
+</footer>
+</html>
